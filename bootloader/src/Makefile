@@ -1,3 +1,10 @@
+#----------------------
+# @author Riza Kaan Ucak
+# @date 19.02.2024
+#
+# Makefile for Bootloader
+#----------------------
+
 .PHONY:build
 .PHONY:clean
 

@@ -1,3 +1,10 @@
+;----------------------
+; @author Riza Kaan Ucak
+; @date 19.02.2024
+;
+; Bootloader source code
+;----------------------
+
 [org 0x7c00]
 [bits 16]
 
