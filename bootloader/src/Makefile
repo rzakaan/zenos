@@ -18,7 +18,7 @@ BUILD=../build
 ASM=nasm
 FLAGS=-f bin
 
-build: kernel_entry.o
+build: clean kernel_entry.o
 	$(info Building BootLoader...)
 	${ASM} ${FLAGS} -o ${BUILD}/${BINARY} boot.asm
 
